@@ -3,6 +3,9 @@
 set.seed(123456)
 
 #### optimal strategy classic----
+# the main assumption is that you have to either hire or reject the candidate you interview
+# meaning you cannot go back to a previously interviewd candidate and if you do not find anyone who meats the requirements you have to hire the last candidate
+#we assumed Normal distribution which is up to discussion
 
 n <- 100
 e <- exp(1)
